@@ -50,6 +50,12 @@ const Collection = () => {
       <div className='flex-1'>
            <div className='flex justify-between text-base sm:text-2xl mb-4'>
             <Titel text1={'ALL'} text2={"COLLECTIONs"}></Titel>
+            {/*Product short*/}
+            <select className='border-2 border-gray-300 text-sm px-2' name="" id="">
+              <option value="relavent">Short by: Relavent</option>
+              <option value="low-high">Short by: Low to High</option>
+              <option value="high-low">Short by: High to Low</option>
+            </select>
            </div>
       </div>
     </div>
